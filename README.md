@@ -1,7 +1,7 @@
 jQuery Interactive UK Map
 =========================
 
-Original source from [Return True](http://return-true.com/2011/06/using-raphaeljs-to-create-a-map/). I just wrote the jQuery plugin and added features.
+Original source from [Return True](http://return-true.com/2011/06/using-raphaeljs-to-create-a-map/). I just wrote the jQuery plugin and added some features/options.
 
 ###Options:
 * `width` - Width of the map - int - default 500
