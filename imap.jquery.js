@@ -1,3 +1,8 @@
+/**
+ * jQuery plugin - Interactive map of UK
+ * https://github.com/AndrewHathaway/imap.js
+ */
+
 (function(window, document, $, undefined) {
 
 	$.fn.imap = function(opts) {
