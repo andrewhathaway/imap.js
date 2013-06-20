@@ -3,7 +3,7 @@ jQuery Interactive UK Map
 
 Original source from [Return True](http://return-true.com/2011/06/using-raphaeljs-to-create-a-map/). I just wrote the jQuery plugin and added features.
 
-Options:
+###Options:
 * `width` - Width of the map - int - default 500
 * `height` -  Height of the map - int - default 1500
 * `base_color` -  Basic map colour - string/hex - '#ACDA93'
@@ -14,7 +14,11 @@ Options:
 * `stroke_color` - Colour of the stroke - string/hex - default '#FFFFFF'
 * `disabled` - Array of disabled regions, by slug - default []
 
-##Usage
+###Callbacks:
+* `onClick` - When a region is clicked. The region data will be passed with the callback (`slug`, `url`, `path` etc).
+	* By default, `onClick` redirects the user to the URL given in `paths.js`
+
+###Usage
 To initalise the plugin:
 		
 	$(function() {
@@ -36,3 +40,6 @@ To disable a region:
 	});
 
 	<div id="map"></div>
+
+###Example Photo
+![Example of imap](http://f.cl.ly/items/2y2K320d0H1S1Y2d1b3l/Image%202013.06.20%2010%3A50%3A01.png)
