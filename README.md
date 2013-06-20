@@ -15,8 +15,9 @@ Original source from [Return True](http://return-true.com/2011/06/using-raphaelj
 * `disabled` - Array of disabled regions, by slug - default []
 
 ###Callbacks:
-* `onClick` - When a region is clicked. The region data will be passed with the callback (`slug`, `url`, `path` etc).
-	* By default, `onClick` redirects the user to the URL given in `paths.js`
+* `onClick` - When a region is clicked. The region data will be passed with the callback (`slug`, `url`, `path` etc). By default, `onClick` redirects the user to the URL given in `paths.js`
+
+On hover, a tooltip is show with the path name in `paths.js` and the region will fade to the `hover_color`.
 
 ###Usage
 To initalise the plugin:
@@ -43,3 +44,6 @@ To disable a region:
 
 ###Example Photo
 ![Example of imap](http://f.cl.ly/items/2y2K320d0H1S1Y2d1b3l/Image%202013.06.20%2010%3A50%3A01.png)
+
+
+[Andrew Hathaway - Twitter](http://twitter.com/andrewhathaway)
