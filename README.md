@@ -20,3 +20,15 @@ To initalise the plugin:
 	$('#map').imap({});
 
 	<div id="map"></div>
+
+
+###Disabling regions
+To disable a region:
+
+	$('#map').imap({
+		disabled : [
+			'republic-of-ireland'
+		]
+	});
+
+	<div id="map"></div>
