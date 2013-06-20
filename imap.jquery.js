@@ -24,11 +24,11 @@
 		map_img.safari();
 
 		var _label = map_img.popup(50, 50, '').hide(),
-			arr = new Array();
+			arr = [];
 
 		for(var country in paths) {
 
-			attributes = {
+			var attributes = {
 				fill : settings.base_color,
 				stroke : settings.stroke_color,
 				'stroke-width' : settings.stroke_width,
