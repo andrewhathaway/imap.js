@@ -11,12 +11,16 @@
 	<script src="imap.jquery.js"></script>
 
 	<script>
-		$(function() {
-			$('#map').imap({});
+	$(function() {
+		$('#map').imap({
+			disabled : [
+				'republic-of-ireland'
+			]
 		});
+	});
 	</script>
 </head>
 <body>
-	<div id="map"></div>
+	<div id="map" ></div>
 </body>
 </html>

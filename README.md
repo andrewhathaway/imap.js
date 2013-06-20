@@ -16,19 +16,23 @@ Options:
 
 ##Usage
 To initalise the plugin:
-	
-	$('#map').imap({});
+		
+	$(function() {
+		$('#map').imap({});
+	});
 
 	<div id="map"></div>
 
 
 ###Disabling regions
 To disable a region:
-
-	$('#map').imap({
-		disabled : [
-			'republic-of-ireland'
-		]
+	
+	$(function() {
+		$('#map').imap({
+			disabled : [
+				'republic-of-ireland'
+			]
+		});
 	});
 
 	<div id="map"></div>
